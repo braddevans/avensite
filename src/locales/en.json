@@ -16,6 +16,9 @@
       "text3": "Content Text 3 Placeholder to be filled in later"
     }
   },
+  "social": {
+    "twitter": "Twitter Feed"
+  },
   "footer": {
     "email": "email",
     "facebook": "facebook"

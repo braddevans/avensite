@@ -1,17 +1,30 @@
 <template>
   <div class="locale-switcher">
-    <select v-model="$i18n.locale">
-      <option value="en">English</option>
-      <option value="cs">Czech</option>
-    </select>
+    <v-select label="Language"
+              :items="items"
+              item-text="lang"
+              item-value="locale"
+              persistent-hint
+              single-line
+              :hint="`Lang: ${select.lang}, Origin: ${select.origin}, Locale: ${select.locale}.json`"
+              v-model="$i18n.locale">
+    </v-select>
   </div>
 </template>
 
 <script>
 export default {
+  data: () => ({
+    select: {lang: 'English', locale: 'en', origin: "Global"},
+    items: [
+      {lang: 'English', locale: 'en', origin: "Global"},
+      {lang: 'Czech', locale: 'cs', origin: "Czechia"}
+    ]
+  }),
   methods: {
-    setLocale(locale) {
-      this.$i18n.locale = locale
+    changedLocale(event) {
+      this.select = event
+      this.$i18n.locale = event
     }
   }
 }
