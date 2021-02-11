@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "home": "domů",
+    "myWork": "moje práce",
+    "about": "o mně"
+  },
+  "content": {
+    "aboutme": {
+      "title": "O mně",
+      "text": "Jmenuji se Kryštof Huk a jsem heraldik a návrhář. Mým cílem je přinést heraldiku celému světu.\n\nNabízím návrhy osobních a obecních znaků a jsem autor znaků několika měst v Česku. Pro více informací navštivte mou práci.\n\nKaždý obecní znak je ztělesnění historie vašeho města skrz jednoduché a úderné vyobrazení. Jde o symbol, vaší komunity, kterým se můžete hrdě reprezentovat na desetiletí do budoucna. Osobní znak je navržen s cílem vyobrazení vás jako jednotlivce, ale jde i o spojnici mezi vámi a vašimi potomky. Vám i budoucím generacím poskytne nástroj k jasné osobní reprezentaci.\n\nNic mne nepotěší víc než spatřit aktivní užívání vlastních návrhů mými klienty."
+    },
+    "homepage": {
+      "title": "domů",
+      "text1": ""
+    }
+  },
+  "footer": {
+    "email": "Email",
+    "facebook": "Facebooku"
+  }
+}

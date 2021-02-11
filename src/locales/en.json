@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "home": "Home",
+    "myWork": "my Work",
+    "about": "About"
+  },
+  "content": {
+    "aboutme": {
+      "title": "About Me",
+      "text": "My name is Kryštof Huk and I am a heraldist and designer, seeking to bring heraldry to the world.\n\nI offer design of personal and civic heraldry and am the author of multiple municipal arms in official use throughout Czechia. For more information, check out my work.\n\nEach municipal coat of arms is a statement about your town’s history and aims to embody it in simple, striking symbolism, a sign of your community you may proudly display for decades to come. Each personal coat of arms is personalised to fit both you as an individual but also to provide your descendants with a connection to you and a clear mark to represent themselves with.\n\nNothing pleases me more than to see my work in use while upholding heraldic standards for my clients."
+    },
+    "homepage": {
+      "title": "home",
+      "text1": ""
+    }
+  },
+  "footer": {
+    "email": "email",
+    "facebook": "facebook"
+  }
+}
