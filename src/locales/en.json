@@ -11,7 +11,9 @@
     },
     "homepage": {
       "title": "home",
-      "text1": ""
+      "text1": "Content Text 1 Placeholder to be filled in later",
+      "text2": "Content Text 2 Placeholder to be filled in later",
+      "text3": "Content Text 3 Placeholder to be filled in later"
     }
   },
   "footer": {
