@@ -17,7 +17,8 @@
     }
   },
   "social": {
-    "twitter": "Twitter Feed"
+    "title": "Social Links",
+    "facebook": "Facebook"
   },
   "footer": {
     "email": "email",

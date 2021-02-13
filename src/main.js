@@ -4,8 +4,29 @@ import App from "./App.vue";
 import vuetify from "./plugins/vuetify";
 import i18n from "./i18n";
 import Home from "@/views/Home";
+import VueCookies from 'vue-cookies'
 
+Vue.use(VueCookies)
 Vue.use(VueRouter);
+
+
+// set default config
+Vue.$cookies.config('7d')
+
+// set global cookie
+if (!Vue.$cookies.isKey('locale')){
+    Vue.$cookies.set('locale','cs');
+}
+
+Vue.mixin({
+  data: function() {
+    return {
+      globallocale:'cs'
+    }
+  }
+})
+
+
 
 Vue.config.productionTip = false;
 
@@ -15,12 +36,6 @@ const routes = [
         name: "Home",
         component: Home
     },
-    {
-        path: "/about",
-        name: "About",
-        component: () =>
-            import("./views/About.vue")
-    }
 ];
 
 const router = new VueRouter({

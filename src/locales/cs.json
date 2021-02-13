@@ -2,12 +2,14 @@
   "nav": {
     "home": "domů",
     "myWork": "moje práce",
+    "prices": "prices",
+    "contact": "contact",
     "about": "o mně"
   },
   "content": {
     "aboutme": {
-      "title": "O mně",
-      "text": "Jmenuji se Kryštof Huk a jsem heraldik a návrhář. Mým cílem je přinést heraldiku celému světu.\n\nNabízím návrhy osobních a obecních znaků a jsem autor znaků několika měst v Česku. Pro více informací navštivte mou práci.\n\nKaždý obecní znak je ztělesnění historie vašeho města skrz jednoduché a úderné vyobrazení. Jde o symbol, vaší komunity, kterým se můžete hrdě reprezentovat na desetiletí do budoucna. Osobní znak je navržen s cílem vyobrazení vás jako jednotlivce, ale jde i o spojnici mezi vámi a vašimi potomky. Vám i budoucím generacím poskytne nástroj k jasné osobní reprezentaci.\n\nNic mne nepotěší víc než spatřit aktivní užívání vlastních návrhů mými klienty."
+      "title": "<span style=\"color:blue\">O mně</span>:",
+      "text": "<span style=\"color:blue\">Jmenuji se Kryštof Huk a jsem heraldik a návrhář.</span><br><br>Mým cílem je přinést heraldiku celému světu.<br><br>Nabízím návrhy osobních a obecních znaků a jsem autor znaků několika měst v Česku.<br>Pro více informací navštivte mou práci.<br><br>Každý obecní znak je ztělesnění historie vašeho města skrz jednoduché a úderné vyobrazení.<br><br>Jde o symbol, vaší komunity, kterým se můžete hrdě reprezentovat na desetiletí do budoucna.<br><br>Osobní znak je navržen s cílem vyobrazení vás jako jednotlivce, ale jde i o spojnici mezi vámi a vašimi potomky.<br><br>Vám i budoucím generacím poskytne nástroj k jasné osobní reprezentaci.<br><br>Nic mne nepotěší víc než spatřit aktivní užívání vlastních návrhů mými klienty."
     },
     "homepage": {
       "title": "Domů",
@@ -17,7 +19,8 @@
     }
   },
   "social": {
-    "twitter": "Twitter Feed"
+    "title": "Social Links",
+    "facebook": "Facebooku"
   },
   "footer": {
     "email": "Email",

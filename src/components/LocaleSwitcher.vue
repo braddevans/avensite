@@ -5,27 +5,31 @@
               item-text="lang"
               item-value="locale"
               persistent-hint
+              return-object
               single-line
-              :hint="`Lang: ${select.lang}, Origin: ${select.origin}, Locale: ${select.locale}.json`"
-              v-model="$i18n.locale">
+              v-on:click="changedLocale"
+              :hint="`Lang: ${select.lang}, Locale: ${select.locale}.json`"
+              v-model="select">
     </v-select>
   </div>
 </template>
 
 <script>
+import i18n from "@/i18n";
+
 export default {
   data: () => ({
-    select: {lang: 'English', locale: 'en', origin: "Global"},
+    select: {locale: 'cs', lang: 'Czech'},
     items: [
-      {lang: 'English', locale: 'en', origin: "Global"},
-      {lang: 'Czech', locale: 'cs', origin: "Czechia"}
+      {locale: 'en', lang: 'English'},
+      {locale: 'cs', lang: 'Czech'}
     ]
   }),
   methods: {
-    changedLocale(event) {
-      this.select = event
-      this.$i18n.locale = event
-    }
-  }
+    changedLocale() {
+      i18n.locale = this.select.locale;
+      this.globallocale = this.select.locale;
+    },
+  },
 }
 </script>

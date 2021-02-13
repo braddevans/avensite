@@ -8,7 +8,6 @@
       <v-tabs align-with-title>
         <v-tab href="/">{{ $t("nav.home") }}</v-tab>
         <v-tab href="/mywork">{{ $t("nav.myWork") }}</v-tab>
-        <v-tab href="/about">{{ $t("nav.about") }}</v-tab>
       </v-tabs>
       <v-spacer></v-spacer>
       <LocaleSwitcher/>
